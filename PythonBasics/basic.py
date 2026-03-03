@@ -67,23 +67,29 @@
 # for key in d:
 #     print(key,d[key])
 
-s={2,3,4,5,65,4,34,6,8}
-s1={100,200,300,1}
+# s={2,3,4,5,65,4,34,6,8}
+# s1={100,200,300,1}
 
-print(s)
-s.add(100)
-print(s)
-s.remove(34)
-print(s)
+# print(s)
+# s.add(100)
+# print(s)
+# s.remove(34)
+# print(s)
 
-s.update({200,300})
+# s.update({200,300})
 
-print(s)
+# print(s)
 
-print("union od s and s1",s.union(s1))
-print("Intersection of s and s1",s.intersection(s1))
+# print("union od s and s1",s.union(s1))
+# print("Intersection of s and s1",s.intersection(s1))
 
-for item in s:
-    print(item,end=' ')
+# for item in s:
+#     print(item,end=' ')
 
+text=" python programming "
+print(text.strip())
+print(text.upper())
+print(text.lower())
+print(text.split())
+print(text.replace("python","java"))
 
